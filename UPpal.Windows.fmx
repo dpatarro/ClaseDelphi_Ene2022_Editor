@@ -1,0 +1,10 @@
+inherited FrmPpal_Windows: TFrmPpal_Windows
+  DesignerMasterStyle = 3
+  inherited MmEditor: TMemo
+    Lines.Strings = (
+      'linea 1'
+      'linea 2')
+    Viewport.Width = 634.000000000000000000
+    Viewport.Height = 163.000000000000000000
+  end
+end

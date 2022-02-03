@@ -1,0 +1,28 @@
+inherited FrmPpal_LgXhdpiTb: TFrmPpal_LgXhdpiTb
+  ClientHeight = 828
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited MmEditor: TMemo
+    Size.Width = 480.000000000000000000
+    Size.Height = 691.000000000000000000
+    Viewport.Width = 480.000000000000000000
+    Viewport.Height = 691.000000000000000000
+  end
+  inherited PnlBotones: TPanel
+    Size.Width = 480.000000000000000000
+    inherited SBLimpiar: TSpeedButton
+      Size.Height = 48.000000000000000000
+      inherited Button1: TButton
+        Position.Y = -1.000000000000000000
+        TabOrder = 5
+      end
+    end
+  end
+  inherited Splitter1: TSplitter
+    Size.Width = 480.000000000000000000
+  end
+  inherited StatusBar1: TStatusBar
+    Position.Y = 796.000000000000000000
+    Size.Width = 480.000000000000000000
+  end
+end

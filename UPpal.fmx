@@ -1,0 +1,197 @@
+object FrmPpal: TFrmPpal
+  Left = 0
+  Top = 0
+  Caption = 'Editor'
+  ClientHeight = 300
+  ClientWidth = 634
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object MmEditor: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    StyledSettings = [Style]
+    TextSettings.Font.Family = 'Corsiva'
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.FontColor = claHotpink
+    TextSettings.WordWrap = True
+    OnChange = MmEditorChange
+    Align = Client
+    Size.Width = 634.000000000000000000
+    Size.Height = 163.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 634.000000000000000000
+    Viewport.Height = 163.000000000000000000
+  end
+  object PnlBotones: TPanel
+    Align = Top
+    Size.Width = 634.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object BtnNuevo: TButton
+      Position.X = 8.000000000000000000
+      Position.Y = 8.000000000000000000
+      TabOrder = 0
+      Text = 'Nuevo'
+      OnClick = BtnNuevoClick
+    end
+    object SBLimpiar: TSpeedButton
+      Position.X = 344.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Limpiar'
+      OnClick = SBLimpiarClick
+      object Button1: TButton
+        Position.X = -216.000000000000000000
+        TabOrder = 6
+        Text = 'Abrir'
+        OnClick = MnAbrirClick
+      end
+    end
+    object Button2: TButton
+      Position.X = 232.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 104.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Guardar Como ...'
+      OnClick = MnGuardarComoClick
+    end
+    object SpinBox1: TSpinBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 2
+      Cursor = crIBeam
+      Min = 1.000000000000000000
+      Max = 10.000000000000000000
+      Value = 1.000000000000000000
+      Position.X = 236.000000000000000000
+      Position.Y = 38.000000000000000000
+      OnChange = SpinBox1Change
+    end
+    object BtnAcerca: TButton
+      Position.X = 432.000000000000000000
+      Position.Y = 8.000000000000000000
+      TabOrder = 4
+      Text = 'Acerca de..'
+      OnClick = MnAcercaClick
+    end
+  end
+  object MmPpal: TMainMenu
+    Left = 272
+    Top = 144
+    object MenuItem1: TMenuItem
+      Text = 'Archivo'
+      object MenuItem2: TMenuItem
+        Locked = True
+        Text = 'Nuevo'
+        OnClick = BtnNuevoClick
+      end
+      object MnAbrir: TMenuItem
+        Locked = True
+        Text = 'Abrir'
+        OnClick = MnAbrirClick
+      end
+      object MnGuardar: TMenuItem
+        Locked = True
+        Text = 'Guardar'
+        OnClick = MnGuardarClick
+      end
+      object MnGuardarComo: TMenuItem
+        Locked = True
+        Text = 'Guardar como ...'
+        OnClick = MnGuardarComoClick
+      end
+      object MenuItem6: TMenuItem
+        Locked = True
+        Text = '-'
+      end
+      object MenuItem5: TMenuItem
+        Locked = True
+        Text = 'Salir'
+        OnClick = MenuItem5Click
+      end
+    end
+    object MenuItem7: TMenuItem
+      Text = 'Editar'
+      object MenuItem8: TMenuItem
+        Locked = True
+        Text = 'Tipo'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Text = 'Ayuda'
+      object MnAcerca: TMenuItem
+        Locked = True
+        Text = 'Acerca de ...'
+        OnClick = MnAcercaClick
+      end
+    end
+  end
+  object ODAbrir: TOpenDialog
+    DefaultExt = 'txt'
+    Filter = 'Texto|*.txt|Separado por comas|*.csv'
+    Left = 360
+    Top = 137
+  end
+  object SDGuardar: TSaveDialog
+    Left = 424
+    Top = 137
+  end
+  object CheckBox1: TCheckBox
+    IsChecked = True
+    Position.X = 8.000000000000000000
+    Position.Y = 38.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 19.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Timer'
+    OnChange = CheckBox1Change
+  end
+  object Splitter1: TSplitter
+    Align = Top
+    Cursor = crVSplit
+    MinSize = 20.000000000000000000
+    Position.Y = 89.000000000000000000
+    Size.Width = 634.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtnTruncar: TButton
+    Position.X = 128.000000000000000000
+    Position.Y = 38.000000000000000000
+    TabOrder = 8
+    Text = 'Truncar'
+    OnClick = BtnTruncarClick
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = Timer1Timer
+    Left = 408
+    Top = 73
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 268.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 634.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    object LblSalida: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 7.000000000000000000
+      Text = '0'
+      TabOrder = 13
+    end
+  end
+end

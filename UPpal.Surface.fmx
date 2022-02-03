@@ -1,0 +1,21 @@
+inherited FrmPpal_Surface: TFrmPpal_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 3
+  inherited MmEditor: TMemo
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1783.000000000000000000
+    Viewport.Width = 1080.000000000000000000
+    Viewport.Height = 1783.000000000000000000
+  end
+  inherited PnlBotones: TPanel
+    Size.Width = 1080.000000000000000000
+  end
+  inherited Splitter1: TSplitter
+    Size.Width = 1080.000000000000000000
+  end
+  inherited StatusBar1: TStatusBar
+    Position.Y = 1888.000000000000000000
+    Size.Width = 1080.000000000000000000
+  end
+end
