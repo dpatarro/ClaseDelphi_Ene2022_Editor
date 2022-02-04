@@ -3,12 +3,12 @@
 	<Transactions>
     <Transaction>2018/11/22 19:23:20.000.302,=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/01/04 15:45:17.000.432,=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/01/04 16:16:20.000.427,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UPpal.fmx=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2022/01/04 16:16:20.000.426,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UPpal.pas=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/01/04 16:16:43.000.525,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Editor.dproj=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/01/04 16:16:20.000.426,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UPpal.pas</Transaction>
+    <Transaction>2022/01/04 16:16:20.000.427,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UPpal.fmx</Transaction>
+    <Transaction>2022/01/04 16:16:43.000.525,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Editor.dproj</Transaction>
     <Transaction>2022/01/12 16:26:21.000.292,=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Unit1.pas</Transaction>
-    <Transaction>2022/01/12 16:27:38.000.934,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Unit1.fmx=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UAcerca.fmx</Transaction>
-    <Transaction>2022/01/12 16:27:38.000.934,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Unit1.pas=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UAcerca.pas</Transaction>
+    <Transaction>2022/01/12 16:27:38.000.934,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UAcerca.fmx=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Unit1.fmx</Transaction>
+    <Transaction>2022/01/12 16:27:38.000.934,C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\UAcerca.pas=C:\Users\WINDOWS\Documents\Embarcadero\Studio\Projects\CursoDelphi\ProyectoEditor\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile Android64="" Android=""/>

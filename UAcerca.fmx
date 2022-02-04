@@ -21,7 +21,7 @@ object FrmAcerca: TFrmAcerca
     TextSettings.Font.Size = 20.000000000000000000
     TextSettings.Font.StyleExt = {00070000000000000002000000}
     TextSettings.HorzAlign = Center
-    Text = 'Sistema de pruebas de editor GIT B1'
+    Text = 'Sistema de pruebas de editor GIT Version 2'
     TabOrder = 0
   end
   object Image1: TImage
