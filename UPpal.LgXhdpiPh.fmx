@@ -1,12 +1,12 @@
 inherited FrmPpal_LgXhdpiPh: TFrmPpal_LgXhdpiPh
-  ClientHeight = 694
+  ClientHeight = 695
   ClientWidth = 450
   DesignerMasterStyle = 3
   inherited MmEditor: TMemo
     Size.Width = 450.000000000000000000
-    Size.Height = 557.000000000000000000
+    Size.Height = 558.000000000000000000
     Viewport.Width = 450.000000000000000000
-    Viewport.Height = 557.000000000000000000
+    Viewport.Height = 558.000000000000000000
   end
   inherited PnlBotones: TPanel
     Size.Width = 450.000000000000000000
@@ -27,7 +27,7 @@ inherited FrmPpal_LgXhdpiPh: TFrmPpal_LgXhdpiPh
     Size.Width = 450.000000000000000000
   end
   inherited StatusBar1: TStatusBar
-    Position.Y = 662.000000000000000000
+    Position.Y = 663.000000000000000000
     Size.Width = 450.000000000000000000
   end
 end
